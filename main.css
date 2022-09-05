@@ -110,6 +110,7 @@ button {
 	padding: 0px 20px 0px 20px;
 	border-radius: 15px;
 	border: none;
+	outline: none;
  }
  .form select {
 	font-size: 18px;
@@ -118,6 +119,7 @@ button {
 	padding: 0px 20px 0px 20px;
 	border-radius: 15px;
 	border: none;
+	outline: none;
  }
  .form__group {
 	display: flex;
@@ -136,13 +138,11 @@ button {
  input {
 	outline: none;
  }
- button {
-	transition: background-color 0.3s ease-in;
- }
+ 
  button:hover {
 	background-color: #f6980c;
 	box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
-	
+	transition: background-color 0.3s ease-in;
  }
  footer {
 	padding: 90px 20px;
@@ -161,7 +161,7 @@ button {
 .footer__group {
 	margin-right: 80px;
 }
-.footer__group h3 {
+.footer h3 {
 	font-size: 16px;
 	opacity: 0.7;
 	margin-bottom: 30px;
@@ -172,4 +172,5 @@ button {
 }
 .footer__links a {
 	margin-bottom: 15px;
+	
 }
